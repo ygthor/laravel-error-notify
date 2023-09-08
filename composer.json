@@ -1,0 +1,32 @@
+{
+    "name": "ygthor/laravel-error-notify",
+    "description": "Your Laravel package description",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "YG Thor",
+            "email": "yuguan.thor1027@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YGThor\\LaravelErrorNotify\\": "src/"
+        }
+    },
+    "require": {
+        "php": "*",
+        "illuminate/support": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YGThor\\LaravelErrorNotify\\LaravelErrorNotifyServiceProvider"
+            ],
+            "config": {
+                "laravel-error-notify.php": "config/laravel-error-notify.php"
+            }
+        }
+    }
+    
+}
