@@ -1,5 +1,7 @@
 <?php
 return [
+    'IP_STACK_API_KEY' => env('IP_STACK_API_KEY', false),
+    'DEBUGGER_EMAIL' => env('DEBUGGER_EMAIL', false),
     'DEBUGGER_EMAIL' => env('DEBUGGER_EMAIL', false),
     'DEBUGGER_MAIL_HOST' => env('DEBUGGER_MAIL_HOST', false),
     'DEBUGGER_MAIL_PORT' => env('DEBUGGER_MAIL_PORT', false),
