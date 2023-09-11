@@ -4,7 +4,7 @@
 function getIpAndCountry()
 {
     $ip_address = \Request::ip();
-    $ip_stack_api_key = config('laravel-error-notify.DEBUGGER_MAIL_MAILER');
+    $ip_stack_api_key = config('laravel-error-notify.IP_STACK_API_KEY');
     $geoIpFrom = file_get_contents("http://api.ipstack.com/$ip_address?access_key=".$ip_stack_api_key);
     $geoIpFrom = json_decode($geoIpFrom, true);
     

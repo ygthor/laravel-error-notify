@@ -17,7 +17,8 @@
     },
     "require": {
         "php": "*",
-        "illuminate/support": "*"
+        "illuminate/support": "*",
+        "symfony/mailer": "^6.3"
     },
     "extra": {
         "laravel": {
