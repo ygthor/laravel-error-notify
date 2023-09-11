@@ -3,6 +3,7 @@
     "description": "Your Laravel package description",
     "version": "1.0.0",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "YG Thor",

@@ -2,6 +2,9 @@
 
 This package is used to send out error log through email to developer account.
 
+```
+composer require ygthor/laravel-error-notify
+```
 
 Need to create following variable in .env to use
 IP_STACK_API_KEY need request using this url https://ipstack.com/, ipstack allow to trace visitor ip location.
